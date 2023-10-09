@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body {
+  background-color: black;
+  transition: background-color 1s;
+}
+body.active {
+  background-color: white;
+}
+
+#toggle {
+  width: 30px;
+  height: 16px;
+  background-color: orange;
+  padding: 0;
+  border: none;
+  border-radius: 16px;
+}
+
+#slider {
+  width: 14px;
+  height: 14px;
+  background-color: white;
+  margin: 1px;
+  transition: margin .5s;
+  border-radius: 50%;
+  float: right;
+}
+#toggle-moon {
+  width: 30px;
+  height: 16px;
+  background-color: orange;
+  padding: 0;
+  border: none;
+  border-radius: 16px;
+}
+
+#slider-moon {
+  width: 14px;
+  height: 14px;
+  background-color: white;
+  margin: 1px;
+  transition: margin .5s;
+  border-radius: 50%;
+  float: right;
+}
+
+.active #slider {
+   margin-right: calc(100% - 15px);
+}
+.active #slider-moon {
+   margin-right: calc(100% - 15px);
+}
+.m-i img {
+    height: 30px;
+    height: 45px;
+}
+.m-i{
+    border-radius: 36.616px;
+border: 2.197px solid rgba(159, 151, 151, 0.49);
+background: url("14\ wallpapers\ that\ are\ a\ perfect\ match\ for\ the\ Jet\ Black\ iPhone\ 7.jpeg"), lightgray 50% / cover no-repeat;
+box-shadow: 0px 0px 8.78788px 0px rgba(227, 227, 227, 0.45);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100px;
+
+}
+ .text {
+    padding: 0px 5px;
+    font-size: 17px;
+    -webkit-text-stroke: 0.5px #cdcdcd;
+    font-family: 'porter';
+}
+</style>
+<body>
+  <div class="m-i">
+    <div class="image"><img src="/moon.png" alt="" id="toggle-moon" onclick="change()" id="slider-moon"></div>
+    <div class="text" >Moon</div>
+</div>
+    <button id='toggle' onclick="change()">
+        <span id='slider'></span>
+      </button>
+</body>
+<script>
+//     var change = function() {
+//   var backgr = document.body,
+//   slider = document.getElementById('slider');
+
+//   if (backgr.style.backgroundColor == 'white') {
+//     backgr.style.backgroundColor = 'black';
+//     slider.style.float = 'right';
+//   } else {
+//     backgr.style.backgroundColor = 'white';
+//     slider.style.float = 'left';
+//   }
+  var body = document.body;
+var change = function() {
+  body.classList.toggle('active');
+}
+
+</script>
+</html>

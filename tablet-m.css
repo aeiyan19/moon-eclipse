@@ -1,0 +1,102 @@
+@media screen and (max-width:880px){
+    .main-nav {
+        margin: 0px 30px;
+    }
+    .logo {
+        margin: 10px;
+        font-size: 20px;
+    }
+    .links a {
+        font-size: 10px;
+        margin: 0px 15px;
+    }
+    
+    .m-i img {
+        height: 30px;
+    }
+    nav .text {
+        padding: 10px 4px;
+        font-size: 10px;
+    }
+    .fm-t{
+        font-size: 50px;
+    }
+    .i img {
+        height: 250px;
+    }
+    .about {
+        padding: 10px 30px;
+    }
+    .about-h {
+        padding: 0px 15px 0px 0px;
+        font-size: 50px;
+    }
+    .a-t {
+       
+        font-size: 12px;
+    }
+    .logo-card {
+        margin: 10px 0px 0px 10px;
+        font-size: 15px;
+    }
+    #card-image img {
+        margin: 0px -10px;
+        height: 200px;
+    }
+    .container-About {
+        align-items: center;
+        margin: 100px 0px;
+    }
+    .para-h {
+        font-size: 20px;
+    }
+    .container-a-s .para-1 {
+        font-size: 7px;
+        width: 120px;
+    }
+    .card .title {
+        margin: 0px -5px;
+        font-size: 8px;
+    }.para-2 {
+        margin: 0px -8px;
+        font-size: 7px;
+    }
+    .para-h {
+        margin: 0 -5px;
+        font-size: 20px;
+    }
+    /* Fact */
+    .fact-t {
+        font-size: 50px;
+        margin: 5px 20px;
+    }
+    .text-fact {
+        font-size: 10px;
+        margin: 2;
+        align-items: center;
+    }
+    
+    .logo-foot {
+        margin: 10px;
+        font-size: 20px;
+    }
+    .copyright {
+        font-size: 10px;
+    }
+    .foot-h {
+        margin: 5px 10px;
+        font-size: 10px;
+    }
+    .lines {
+        font-size: 8px;
+    }
+.container-foot {
+    padding: 8px 0px;
+    border-radius: 25px;
+}
+.foot-h {
+    width: 70px;
+    margin: 5px 4px;
+    font-size: 10px;
+}
+}
